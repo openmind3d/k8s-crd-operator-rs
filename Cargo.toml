@@ -1,0 +1,18 @@
+[package]
+name = "kubers"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+kube = {version = "*", features = ["runtime", "derive"]}
+k8s-openapi = {version = "*", features = ["v1_25"]}
+
+anyhow = "*"
+futures = "*"
+serde = "*"
+serde_json = "*"
+serde_yaml = "*"
+schemars = "*"
+tokio = {version = "*", features = ["full"]}

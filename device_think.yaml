@@ -1,0 +1,8 @@
+apiVersion: device.crd/v1
+kind: Device
+metadata:
+  name: "think"
+spec:
+  device_type: "laptop"
+  name: "thinkpad t480s"
+  vendor: "lenovo"

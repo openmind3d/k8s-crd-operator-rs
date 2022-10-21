@@ -1,0 +1,8 @@
+apiVersion: device.crd/v1
+kind: Device
+metadata:
+  name: "iphone"
+spec:
+  device_type: "mobile"
+  name: "Iphone 11"
+  vendor: "Apple"
